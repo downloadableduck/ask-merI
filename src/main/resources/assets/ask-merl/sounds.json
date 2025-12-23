@@ -1,0 +1,44 @@
+{
+  "i_dont_know": {
+    "subtitle": "sounds.askmerl.i_dont_know",
+    "sounds": [
+      "askmerl:i_dont_know"
+    ]
+  },
+  "cant_assist_with_topic": {
+    "subtitle": "sounds.askmerl.cant_assist_with_topic",
+    "sounds": [
+      "askmerl:cant_assist_with_topic"
+    ]
+  },
+  "english": {
+    "subtitle": "sounds.askmerl.english",
+    "sounds": [
+      "askmerl:english"
+    ]
+  },
+  "high_traffic": {
+    "subtitle": "sounds.askmerl.high_traffic",
+    "sounds": [
+      "askmerl:high_traffic"
+    ]
+  },
+  "question_related_to_minecraft": {
+    "subtitle": "sounds.askmerl.question_related_to_minecraft",
+    "sounds": [
+      "askmerl:question_related_to_minecraft"
+    ]
+  },
+  "question_related_to_minecraft2": {
+    "subtitle": "sounds.askmerl.question_related_to_minecraft2",
+    "sounds": [
+      "askmerl:question_related_to_minecraft2"
+    ]
+  },
+  "violated_content_policy": {
+    "subtitle": "sounds.askmerl.violated_content_policy",
+    "sounds": [
+      "askmerl:violated_content_policy"
+    ]
+  }
+}

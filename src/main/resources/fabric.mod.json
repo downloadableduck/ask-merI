@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "ask-merl",
+	"version": "${version}",
+	"name": "Ask Merl",
+	"description": "Provides a built-in /askmerl command which allows you to ask merl any question you wish! ",
+	"authors": [
+		"downloadableduck & the Merl Organization"
+	],
+	"contact": {
+		"homepage": "none",
+		"sources": "https://github.com/downloadableduck/ask-merl"
+	},
+	"license": "MIT",
+	"icon": "assets/ask-merl/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "org.merl.IrreliventFile"
+		],
+		"client": [
+			"org.merl.Initialize"
+        ]
+	},
+	"mixins": [
+		"ask-merl.mixins.json",
+		{
+			"config": "ask-merl.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.3",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
