@@ -1,0 +1,9 @@
+{
+  "sounds.askmerl.i_dont_know": "I don't know.",
+  "sounds.askmerl.cant_assist_with_topic": "I can't assist with that topic.",
+  "sounds.askmerl.english": "I can only provide support in English right now. Can I help you with a question related to 'Minecraft'?.",
+  "sounds.askmerl.high_traffic": "We are currently experiencing higher traffic than expected. Please wait a moment and resend your last message.",
+  "sounds.askmerl.question_related_to_minecraft": "I don't know the answer to that. Can I help you with a question related to Minecraft?",
+  "sounds.askmerl.question_related_to_minecraft2": "I don't know how to help with that. Can I assist you with a question related to Minecraft?",
+  "sounds.askmerl.violated_content_policy": "Your last message contains language that violates our content policy. Please reword your response."
+}
