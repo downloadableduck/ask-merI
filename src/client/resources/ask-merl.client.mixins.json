@@ -1,5 +1,5 @@
 {
-	"required": true,
+	"required": false,
 	"package": "org.merl.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [

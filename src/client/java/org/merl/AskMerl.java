@@ -12,10 +12,7 @@ public class AskMerl {
         dispatcher.register(ClientCommandManager.literal("askmerl")
                 .then(ClientCommandManager.argument("question", StringArgumentType.greedyString())
                         .executes(context -> {
-                            String question = StringArgumentType.getString(context, "question");
-                                context.getSource().getClient().execute(() -> {
-                                context.getSource().getClient().setScreen(new MerlToast(Component.literal("merl")));
-                            });
+                                context.getSource().getClient().execute(() -> context.getSource().getClient().setScreen(new MerlToast(Component.literal("merl"))));
                             return 1;
                         })
                 )
