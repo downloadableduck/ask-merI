@@ -3,8 +3,8 @@ package org.merl;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
 import net.minecraft.core.Registry;
+import net.minecraft.resources.*;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 
 import static org.merl.IrreliventFile.MOD_ID;
@@ -12,7 +12,7 @@ import static org.merl.IrreliventFile.MOD_ID;
 public class Initialize implements ClientModInitializer {
 
     private static SoundEvent registerSound(String name) {
-        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(MOD_ID, name);
+        Identifier id = Identifier.fromNamespaceAndPath(MOD_ID, name);
         return Registry.register(BuiltInRegistries.SOUND_EVENT, id, SoundEvent.createVariableRangeEvent(id));
     }
 

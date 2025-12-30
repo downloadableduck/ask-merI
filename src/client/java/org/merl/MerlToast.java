@@ -2,7 +2,6 @@ package org.merl;
 
 import net.minecraft.client.gui.components.toasts.SystemToast;
 import net.minecraft.client.gui.screens.Screen;
-import net.minecraft.core.ClientAsset;
 import net.minecraft.network.chat.Component;
 
 public class MerlToast extends Screen {
@@ -41,5 +40,6 @@ public class MerlToast extends Screen {
                 SystemToast.multiline(this.minecraft, SystemToast.SystemToastId.NARRATOR_TOGGLE, Component.nullToEmpty("    Merl"), Component.nullToEmpty(response))
 
         );
+        this.onClose();
     }
 }
